@@ -10,7 +10,7 @@ namespace Trello
         {
             Columns=new List<Column>();
         }
-        public void Remove(int id)
+        public void Delete(int id)
         {
             Columns.Remove(Columns.Find(x => x.ID == id));
         }
