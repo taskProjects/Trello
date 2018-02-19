@@ -3,8 +3,8 @@
     public class BoardService : IBoardService
     {
         IBoardDAO boardDao = new BoardDAO();
-        IColumnService ColumnService = new ColumnService();
-        public IColumnService GetColumnService()
+        ColumnService ColumnService = new ColumnService();
+        public ColumnService GetColumnService()
         {
             return ColumnService;
         }

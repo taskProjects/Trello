@@ -21,10 +21,12 @@ namespace Trello
             columns.GetColumnService().Add("Bug");
             columns.GetColumnService().Add("In progress");
             columns.GetColumnService().Add("Solved");
+           
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            var columns = Trello.Instance.BoardService as BoardService;
+            
         }
     }
 }

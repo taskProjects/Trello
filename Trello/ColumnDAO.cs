@@ -2,7 +2,7 @@
 
 namespace Trello
 {
-    public class ColumnDAO:IColumnDAO
+    public class ColumnDAO
     {
         public List<Column> Columns { get; set; }
         public Column _Column { get; set; }

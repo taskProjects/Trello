@@ -1,12 +1,12 @@
 ﻿namespace Trello
 {
-    public class ColumnService:IColumnService
+    public class ColumnService
     {
-        IColumnDAO columnDao=new ColumnDAO();
-        public ITaskService TaskService { get; set; }
+        ColumnDAO columnDao=new ColumnDAO();
+        public TaskDAO TaskDao { get; set; }
         public ColumnService()
         {
-            TaskService=new TaskService();
+            TaskDao = new TaskDAO();
         }
         public void Add(string name)
         {

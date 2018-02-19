@@ -20,7 +20,6 @@
                 return instance;
             }
         }
-
         public IBoardService BoardService { get; set; }
     }
 }
