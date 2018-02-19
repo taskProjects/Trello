@@ -3,6 +3,11 @@
     public class Trello
     {
         private static Trello instance;
+
+        private Trello()
+        {
+            BoardService=new BoardService();
+        }
         public static Trello Instance
         {
             get
@@ -16,5 +21,6 @@
             }
         }
 
+        public IBoardService BoardService { get; set; }
     }
 }

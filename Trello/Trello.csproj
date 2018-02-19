@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Board.cs" />
     <Compile Include="BoardDAO.cs" />
+    <Compile Include="BoardService.cs" />
     <Compile Include="Column.cs" />
     <Compile Include="ColumnDAO.cs" />
     <Compile Include="ColumnService.cs" />
@@ -57,6 +58,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="IBoardDAO.cs" />
+    <Compile Include="IBoardService.cs" />
     <Compile Include="IColumnDAO.cs" />
     <Compile Include="IColumnService.cs" />
     <Compile Include="ITaskDAO.cs" />
@@ -67,6 +69,9 @@
     <Compile Include="Task.cs" />
     <Compile Include="TaskDAO.cs" />
     <Compile Include="Trello.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
