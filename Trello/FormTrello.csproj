@@ -59,11 +59,19 @@
     </Compile>
     <Compile Include="IBoardDAO.cs" />
     <Compile Include="IBoardService.cs" />
+    <Compile Include="IColumnDAO.cs" />
+    <Compile Include="IColumnService.cs" />
+    <Compile Include="ITaskDAO.cs" />
+    <Compile Include="ITaskService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task.cs" />
     <Compile Include="TaskDAO.cs" />
+    <Compile Include="TaskService.cs" />
     <Compile Include="Trello.cs" />
+    <Compile Include="TrelloController.cs" />
+    <Compile Include="TrelloDAO.cs" />
+    <Compile Include="TrelloService.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
